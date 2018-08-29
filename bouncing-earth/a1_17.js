@@ -1,4 +1,4 @@
-x`x`/*
+/*
 My methods for constructing lights and doing shadow calculations
 
 1. The lights were constructed basically in the same manner as described in the book.
@@ -70,11 +70,12 @@ function defineAttributes() {
 	provided code (at least it appears in Windows 10 in all
 	browsers I used). The error does not appear to be fatal
 	to the operation of the program, but it does fill up
-	the console with warning messages. *******************************************************************(LINES COMMENTED OUT IN
+	the console with warning messages. (LINES COMMENTED OUT IN
 	CASE THEY MAY CAUSE A PROBLEM ON SOME PLATFORMS */
-	if (shaderProgram.vertexNormalAttribute == -1) {
+	/*if (shaderProgram.vertexNormalAttribute == -1) {
 		shaderProgram.vertexNormalAttribute = 2;
 	}
+	*/
 	gl.enableVertexAttribArray(shaderProgram.vertexNormalAttribute);
 
 	shaderProgram.pMatrixUniform = gl.getUniformLocation(shaderProgram, "uPMatrix");

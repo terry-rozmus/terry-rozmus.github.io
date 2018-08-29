@@ -1,0 +1,22 @@
+button {
+    color: white;
+	background-color: Gray;
+	width: 100px;
+	height: 30px;
+	margin: 2px;
+	border-style: solid;
+    border-color: black;
+	border-radius: 17px;
+}
+
+.zoom {
+	background-color: FireBrick;
+}
+
+#zoomIn {
+	display: none;
+}
+
+#zoomOut {
+	display; inherit;
+}
